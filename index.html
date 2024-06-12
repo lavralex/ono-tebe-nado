@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__menu-link">
+            <a class="header__menu-link header__menu-link-active" href="#0">
               главная
             </a>
           </li>
@@ -25,18 +25,18 @@
               посмотреть лоты
             </a>
           </li>
-          <li class="header__links-list-item">
+          <li class="header__links-list-item header__links-list-last-item">
             <a class="header__menu-link" href="#about">
               об аукционе
             </a>
           </li>
         </ul>
       </nav>
-      <a class="header__logo">
+      <a class="header__logo" href="#0">
         <img 
           class="header__logo-image"
           src="./images/logo-black.svg"
-          alt="Логотип проекта Оно тебе надо"
+          alt="Черный логотип проекта: прямоугольник с разделённой на три строчки надписью «Оно тебе надо»."
         />
       </a>
       <address class="address header__address">
@@ -56,7 +56,7 @@
     <main>
       <section class="content-section cover">
         <div class="overlay"></div>
-        <h1 class="cover__title">
+        <h1 class="cover__title top-layer">
           <span>
             о<span class="letter-spacing-extended">но</span>
           </span>
@@ -67,7 +67,7 @@
             <span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
           </span>
         </h1>
-        <div class="cover__description">
+        <div class="cover__description top-layer">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
@@ -76,7 +76,7 @@
           </button>
         </div>
       </section>
-      <section class="content-section" id="lots">
+      <section class="content-section lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -84,10 +84,10 @@
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 
-                <h3 class="card__title">
+                <h3 class="card__title top-layer">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <p class="card__text">
+                <p class="card__text top-layer">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
               </article>
@@ -98,10 +98,10 @@
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 
-                <h3 class="card__title">
+                <h3 class="card__title top-layer">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <p class="card__text">
+                <p class="card__text top-layer">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
                 </p>
               </article>
@@ -111,10 +111,10 @@
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h3 class="card__title">
+                <h3 class="card__title top-layer">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <p class="card__text">
+                <p class="card__text top-layer">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
                 </p>
               </article>
@@ -125,12 +125,12 @@
           посмотреть больше
         </a>
       </section>
-      <section class="content-section" id="about">
+      <section class="content-section about" id="about">
         <div class="about__column">
           <div class="about__logo">
             <img
                 src="./images/logo-white.svg" 
-                alt="Логотип проекта Оно тебе надо"
+                alt="Белый логотип проекта: прямоугольник с разделённой на три строчки надписью «Оно тебе надо» на фоне чёрного круга."
             >
           </div>
         </div>
@@ -148,7 +148,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <address class="address">
         <a href="tel:+99995555555">
           +9 999 555 5555
@@ -165,7 +165,7 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active">
+            <a class="footer__menu-link footer__menu-link_active" href="#0">
               главная
             </a>
           </li>
@@ -186,7 +186,7 @@
           <a class="footer__social-link" href="#0">
             <img 
               src="./images/yt.svg" 
-              alt="Логотип ютуб"
+              alt="Черно-белый логотип ютуб"
             >
           </a>
         </li>
@@ -194,7 +194,7 @@
           <a class="footer__social-link" href="#0">
               <img 
               src="./images/vk.svg" 
-              alt="Логотип вконтакте"
+              alt="Черно-белый логотип вконтакте"
             >
           </a>
         </li>
@@ -202,7 +202,7 @@
           <a class="footer__social-link" href="#0">
             <img 
               src="./images/pinterest.svg" 
-              alt="Логотип пинтерест"
+              alt="Черно-белый логотип пинтерест"
             >
           </a>
         </li>
