@@ -1,1 +1,1 @@
-https://github.com/lavralex/ono-tebe-nado/tree/main
+https://github.com/lavralex/ono-tebe-nado
